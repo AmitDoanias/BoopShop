@@ -1,0 +1,32 @@
+.books-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.book-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 15px;
+    margin: 10px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+.red-price{
+    color: red;
+}
+
+.green-price{
+    color: green;
+}
+
+.book-details .img-container {
+    max-width: 250px;
+    cursor: pointer;   
+}
+
+.books-container .btn-back{
+    max-height: 35px;
+}
